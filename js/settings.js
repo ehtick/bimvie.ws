@@ -66,10 +66,10 @@ var Settings = {
 		return false;
 	},
 	getBimServerApiAddress: function(){
-		return "./deps/bimserverjsapi";
+		return "../bimserverjavascriptapi";
 	},
 	getBimSurferApiAddress: function(){
-		return "./deps/bimsurfer-v1";
+		return "../bimsurfer";
 	},
 	getDefaultHiddenTypes: function() {
 		return {"IfcOpeningElement": true, "IfcSpace": true};
